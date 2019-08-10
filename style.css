@@ -1,3 +1,21 @@
 body {
     background-color: azure;
 }
+
+.title-expand {
+    animation-name: expand;
+    animation-duration: 4s;
+    text-align: center;
+} 
+
+@keyframes expand {
+  0% {
+    letter-spacing: 0vw;
+  }
+  50% {
+    letter-spacing: 1.5vw;
+  }
+  100% {
+    letter-spacing: 0vw;
+  }
+}
