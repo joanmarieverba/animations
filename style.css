@@ -6,6 +6,7 @@ body {
     animation-name: expand;
     animation-duration: 4s;
     text-align: center;
+    font-family: 'Patua One', cursive;
 } 
 
 @keyframes expand {
