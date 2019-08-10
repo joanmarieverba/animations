@@ -7,16 +7,17 @@ body {
     animation-duration: 4s;
     text-align: center;
     font-family: 'Patua One', cursive;
+    letter-spacing: .1vw;
 } 
 
 @keyframes expand {
   0% {
-    letter-spacing: 0vw;
+    letter-spacing: .1vw;
   }
   50% {
-    letter-spacing: 1.5vw;
+    letter-spacing: 1.7vw;
   }
   100% {
-    letter-spacing: 0vw;
+    letter-spacing: .1vw;
   }
 }
