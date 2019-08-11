@@ -24,7 +24,7 @@ body {
 }
 /* --end expand animation-- */
 
-
+/* --Train animation-- */
 .choo-choo {
   animation: acrosspage 12s ease-in-out;
   top: 53em;
@@ -38,3 +38,5 @@ body {
     transform: translateX(80em);
   }
 }
+
+/* --end train animation-- */
