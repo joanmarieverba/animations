@@ -49,6 +49,7 @@ body {
   animation-duration: 4s;
   text-align: center;
   font-family: 'Oswald';
+  font-size: 18vh;
 }
 
 @keyframes zoomIn {
