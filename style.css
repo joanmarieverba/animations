@@ -125,7 +125,7 @@ h2 {
   text-align:right;
 }
 
-p {
+.frontPage p {
   text-align:justify;
   font-size:6px;
 }
@@ -134,19 +134,23 @@ p {
 /* --end open the book animation-- */
 
 
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-}
 
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+  animation-duration: 4s;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    font-size: 6vh;
+  }
+  100% {
+    opacity: 1;
+    font-size: 18vh;
+  }
 }
