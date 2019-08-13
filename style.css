@@ -68,7 +68,7 @@ body {
   width:100%;
   height:5px;
   background: #323a3c;
-  transform-origin: bottom;
+  /* transform-origin: bottom; */
   transform: skewX(-45deg);
 }
 .cover:after {
@@ -142,7 +142,6 @@ h2 {
   text-align: center;
   font-family: 'Oswald';
 }
-
 
 @keyframes zoomIn {
   0% {
