@@ -28,7 +28,7 @@ body {
 .choo-choo {
   animation: acrosspage 12s ease-in-out;
   top: 53em;
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 
 @keyframes acrosspage {
