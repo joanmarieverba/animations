@@ -42,6 +42,28 @@ body {
 
 /* --end train animation-- */
 
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  animation-duration: 4s;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    font-size: 6vh;
+  }
+  100% {
+    opacity: 1;
+    font-size: 18vh;
+  }
+}
+
+
+
 /* --  Open the book animation-- */
 
 .cover {
@@ -135,21 +157,4 @@ h2 {
 
 
 
-.zoomIn {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
-  animation-duration: 4s;
-  text-align: center;
-  font-family: 'Oswald';
-}
 
-@keyframes zoomIn {
-  0% {
-    opacity: 0;
-    font-size: 6vh;
-  }
-  100% {
-    opacity: 1;
-    font-size: 18vh;
-  }
-}
