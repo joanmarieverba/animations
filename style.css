@@ -42,7 +42,7 @@ body {
 
 /* --end train animation-- */
 
-
+/* --Zoom in animation-- */
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -63,7 +63,7 @@ body {
   }
 }
 
-
+/* --end Zoom in animation-- */
 
 /* --  Open the book animation-- */
 
