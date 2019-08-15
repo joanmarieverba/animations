@@ -2,6 +2,9 @@ body {
     background-color: azure;
 }
 
+
+
+
 /* --Expand and contract letters-- */
 .title-expand {
     animation-name: expand;
