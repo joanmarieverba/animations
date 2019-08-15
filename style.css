@@ -2,7 +2,13 @@ body {
     background-color: azure;
 }
 
-
+.backdrop {
+	background: url("./images/waves.jpg") center;
+	background-size: contain;
+	margin: auto;
+	margin-top: 40px;
+	width: 75vw;
+}
 
 
 /* --Expand and contract letters-- */
