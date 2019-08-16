@@ -12,6 +12,34 @@ body {
 }
 
 
+.title-text {
+	color: white;
+	border: 4px white solid;
+	mix-blend-mode: multiply;
+	font: bolder 12vw monospace;
+	text-align: center;
+	margin: 0;
+	cursor: pointer;
+	transition: text-indent 0.5s;
+}
+
+.title-text:hover {
+	text-indent: 5px;
+	transition: text-indent 0.5s;
+}
+
+.title-text:hover::before {
+	display: inline-block;
+	content: "✈︎";
+}
+
+.text.title {
+	font-family: "Alfa Slab One", cursive;
+	background-color: rgba(59, 2, 6, 1);
+	outline: 4px rgba(59, 2, 6, 1) solid;
+}
+
+
 .screen {
 	color: black;
 	mix-blend-mode: screen;
