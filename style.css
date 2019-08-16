@@ -51,7 +51,7 @@ body {
 .lighten {
 	color: black;
 	mix-blend-mode: lighten;
-	background-color: rgba(244, 220, 211, 1);
+	background-color: fuchsia;
 }
 
 /* --Expand and contract letters-- */
