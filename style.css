@@ -11,6 +11,7 @@ body {
 	width: 75vw;
 }
 
+  /* knockout hover effect   */
 
 .title-text {
 	color: white;
@@ -46,7 +47,7 @@ body {
 	background-color: rgba(244, 220, 211, 1);
 }
 
-/* font-family: 'Alfa Slab One', cursive; */
+/* knockout glow effect */
 
 .text {
 	font: bolder 12vw "Alfa Slab One";
@@ -84,7 +85,7 @@ body {
 }
 
 
-
+  /* end knockout effects   */
 
 /* --Expand and contract letters-- */
 .title-expand {
