@@ -179,7 +179,8 @@ body {
   /* transform-origin: bottom; */
   transform: skewX(-45deg);
 }
-/* .cover:after {
+/* unnecessary bar at side of page
+.cover:after {
   content:'';
   position: absolute;
   top:-5px;
