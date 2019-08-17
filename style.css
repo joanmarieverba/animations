@@ -155,7 +155,7 @@ body {
 .cover {
   position:absolute;
   left:50%;
-  top:175%;
+  /* top:175%; */
   transform-style:preserve-3d;
   transform:translate(-50%,-50%) perspective(2000px);
   width:150px;
@@ -171,7 +171,7 @@ body {
 .cover:before {
   content:'';
   position:absolute;
-  top:-5px;
+  /* top:-5px; */
   left:0;
   width:100%;
   height:5px;
@@ -179,7 +179,7 @@ body {
   /* transform-origin: bottom; */
   transform: skewX(-45deg);
 }
-.cover:after {
+/* .cover:after {
   content:'';
   position: absolute;
   top:-5px;
@@ -190,7 +190,7 @@ body {
   transform-origin: left;
   transform: skeyY(-45deg);
   z-index:1;
-}
+} */
 img-box img {
   overflow:hidden;
   width:300px;
