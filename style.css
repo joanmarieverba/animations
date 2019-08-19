@@ -85,6 +85,22 @@ body {
 }
 
 
+
+.text-only{
+    font:                           bolder 12vw 'Alfa Slab One';
+    text-align:                     center;
+    margin:                         0;
+    background:                     url("./images/waves.jpg") center;
+    background-size:                contain;
+    margin:                         auto;
+    width:                          75vw;
+    background-clip:                text;
+    -webkit-background-clip:        text;
+    color:                          transparent;
+}
+
+
+
   /* end knockout effects   */
 
 /* --Expand and contract letters-- */
