@@ -84,7 +84,7 @@ body {
 	background-color: fuchsia;
 }
 
-
+  /* only show the text   */
 
 .text-only{
     font:                           bolder 12vw 'Alfa Slab One';
