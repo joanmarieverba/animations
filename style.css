@@ -124,7 +124,7 @@ body {
 
   /* end knockout effects   */
 
-
+  /* sliding panels   */
 
 .slide {
   position: relative;
@@ -162,6 +162,8 @@ body {
   transform: translate(0, 0);
 }
 
+  /* the following determines whether the slide comes in from the top, bottom, left, or right   */
+
 .slide-right .slide-content {
   transform: translate(100%, 0);
 }
@@ -178,6 +180,8 @@ body {
   transform: translate(-100%, 0);
 }
 
+
+  /* end sliding panels   */
 
 /* --Train animation-- */
 .choo-choo {
