@@ -2,6 +2,28 @@ body {
     background-color: azure;
 }
 
+/* --Expand and contract letters-- */
+.title-expand {
+    animation-name: expand;
+    animation-duration: 4s;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    letter-spacing: .1vw;
+} 
+
+@keyframes expand {
+  0% {
+    letter-spacing: .1vw;
+  }
+  50% {
+    letter-spacing: 1.7vw;
+  }
+  100% {
+    letter-spacing: .1vw;
+  }
+}
+/* --end expand animation-- */
+
   /* knockout effect   */
 .backdrop {
 	background: url("./images/waves.jpg") center;
@@ -102,27 +124,7 @@ body {
 
   /* end knockout effects   */
 
-/* --Expand and contract letters-- */
-.title-expand {
-    animation-name: expand;
-    animation-duration: 4s;
-    text-align: center;
-    font-family: 'Patua One', cursive;
-    letter-spacing: .1vw;
-} 
 
-@keyframes expand {
-  0% {
-    letter-spacing: .1vw;
-  }
-  50% {
-    letter-spacing: 1.7vw;
-  }
-  100% {
-    letter-spacing: .1vw;
-  }
-}
-/* --end expand animation-- */
 
 /* --Train animation-- */
 .choo-choo {
