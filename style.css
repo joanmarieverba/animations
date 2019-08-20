@@ -130,6 +130,7 @@ body {
   position: relative;
   display: inline-block;
   overflow: hidden;
+  margin: 15px;
 }
 
 .slide img {
