@@ -26,7 +26,25 @@ body {
 
  /* open text animation   */
 
+.open-text {
+    animation-name: open;
+    animation-duration: 4s;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    letter-spacing: .1vw;
+} 
 
+@keyframes open {
+  0% {
+    letter-spacing: .1vw;
+  }
+  50% {
+    letter-spacing: 1.7vw;
+  }
+  100% {
+    letter-spacing: .1vw;
+  }
+}
 
 
   /* end open text animation   */
