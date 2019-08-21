@@ -151,7 +151,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: rgba(142, 233, 232, 0.9);
+  background: darkslateblue;
+  opacity: .9;
   padding: 20px;
   color: white;
   box-sizing: border-box;
