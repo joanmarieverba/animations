@@ -130,7 +130,8 @@ body {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  margin: 15px;
+  margin-bottom: 25px;
+  margin-left: 45%;
 }
 
 .slide img {
