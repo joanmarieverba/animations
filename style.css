@@ -26,34 +26,15 @@ body {
 
  /* open text animation   */
 
-.open-text {
-  width: 100%;
-  font-size: 50px;
-  padding: 25px 0;
-  color:black;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  animation: open 2s;
-  font-family: 'Source Sans Pro', sans-serif;
-} 
-
-@keyframes open {
-  /* from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  } */
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
+.bar {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  margin-bottom: 10px;
+  animation-duration: 10s;
+  animation-name: stretch;
+  margin-left: 45%;
 }
-
-
 
 
 
