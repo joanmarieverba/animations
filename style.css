@@ -27,24 +27,34 @@ body {
  /* open text animation   */
 
 .open-text {
-    animation-name: open;
-    animation-duration: 4s;
-    text-align: center;
-    font-family: 'Patua One', cursive;
-    letter-spacing: .1vw;
+  width: 100%;
+  font-size: 50px;
+  padding: 25px 0;
+  color:black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  animation: open 2s;
+  font-family: 'Source Sans Pro', sans-serif;
 } 
 
 @keyframes open {
-  0% {
-    letter-spacing: .1vw;
+  /* from {
+    transform: scale(0);
   }
-  50% {
-    letter-spacing: 1.7vw;
+  to {
+    transform: scale(1);
+  } */
+  0% {
+    width: 0;
   }
   100% {
-    letter-spacing: .1vw;
+    width: 100%;
   }
 }
+
+
+
 
 
   /* end open text animation   */
