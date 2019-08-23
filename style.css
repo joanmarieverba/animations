@@ -33,8 +33,14 @@ body {
   margin-bottom: 10px;
   animation-duration: 10s;
   animation-name: stretch;
-  margin-left: 45%;
+  margin: 0 auto;
 }
+
+/* @keyframes stretch {
+  0% {
+
+  }
+} */
 
 
 
