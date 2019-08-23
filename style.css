@@ -36,11 +36,16 @@ body {
   margin: 0 auto;
 }
 
-/* @keyframes stretch {
+@keyframes stretch {
   0% {
-
+    transform: scaleX(0);
+    transform-origin: center;
   }
-} */
+  100% {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+}
 
 
 
