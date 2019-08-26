@@ -65,10 +65,12 @@ body {
   50% {
     transform: scaleX(1);
     transform-origin: center;
-    transform: translateY(0px);
+  }
+  51% {
+    transform: translateY(0vw);
   }
   100% {
-    transform: translateY(10px);
+    transform: translateY(-5vw);
 
   }
 }
