@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-family: 'Patua One', cursive;
     letter-spacing: .1vw;
+    margin-bottom: 10vh;
 } 
 
 @keyframes expand {
