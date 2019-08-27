@@ -68,10 +68,10 @@ body {
     transform-origin: center;
   }
   51% {
-    transform: translateY(0vw);
+    transform: translateY(0vh);
   }
   100% {
-    transform: translateY(-5vw);
+    transform: translateY(-5vh);
 
   }
 }
