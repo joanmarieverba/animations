@@ -82,6 +82,12 @@ body {
   font-size: 4vh;
   text-align:center;
   font-weight:bold;
+  animation-duration: 10s;
+  animation-name: appear;
+}
+
+@keyframes appear {
+
 }
 
   /* end open text animation   */
