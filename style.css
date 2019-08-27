@@ -55,6 +55,7 @@ body {
   margin-bottom: 10px;
   animation-duration: 10s;
   animation-name: stretch-and-up;
+  animation-fill-mode: forwards;
   margin: 0 auto;
 }
 
