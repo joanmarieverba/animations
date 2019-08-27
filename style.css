@@ -90,7 +90,10 @@ body {
   0% {
     opacity: 0;
   }
-  55% {
+  80% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 
