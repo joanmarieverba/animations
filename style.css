@@ -77,12 +77,12 @@ body {
   }
 }
 
-    /* @keyframes action {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(-10px); }
-    } */
-
-
+.ampersand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4vh;
+  text-align:center;
+  font-weight:bold;
+}
 
   /* end open text animation   */
 
