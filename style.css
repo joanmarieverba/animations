@@ -72,7 +72,7 @@ body {
     transform: translateY(0vh);
   }
   100% {
-    transform: translateY(-5vh);
+    transform: translateY(-6vh);
 
   }
 }
