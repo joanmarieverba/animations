@@ -100,7 +100,7 @@ body {
 }
 
 .move-right {
-  color: green;
+  color: blue;
   padding-left: 1vw;
   padding-right: 1vw;
   animation-duration: 10s;
