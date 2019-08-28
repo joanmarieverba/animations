@@ -117,8 +117,29 @@ body {
   100% {
     padding-left: 1vw;
   }
-
 }
+
+.move-left {
+  color:blue;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  animation-duration: 10s;
+  animation-name: left-move;
+}
+
+@keyframes left-move {
+  0% {
+    padding-right: 0;
+  }
+  80% {
+    padding-right: 0;
+  }
+  100% {
+    padding-right: 1vw;
+  }
+}
+
+
 
   /* end open text animation   */
 
