@@ -99,6 +99,27 @@ body {
 
 }
 
+.move-right {
+  color:tomato;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  animation-duration: 10s;
+  animation-name: right-move;
+}
+
+@keyframes right-move {
+  0% {
+    padding-left: 0;
+  }
+  80% {
+    padding-left: 0;
+  }
+  100% {
+    padding-left: 1vw;
+  }
+
+}
+
   /* end open text animation   */
 
 
