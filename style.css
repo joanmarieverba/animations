@@ -139,9 +139,14 @@ body {
   }
 }
 
-
-
   /* end open text animation   */
+
+   /* vertical line effect   */
+
+.vline {
+  border-left: 6px solid green;
+  height: 50px;
+}
 
 
   /* knockout effect   */
