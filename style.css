@@ -148,6 +148,11 @@ body {
   margin-top: 10vh;
 }
 
+.this-text {
+  font-family: 'Oswald';
+  font-size: 8vh;
+}
+
 .vline {
   border-left: 6px solid midnightblue;
   height: 50px;
