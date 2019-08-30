@@ -155,12 +155,12 @@ body {
 }
 
 .vline-l {
-  border-left: 6px solid midnightblue;
-  height: 50px;
+  border-left: 8px solid midnightblue;
+  height: 100px;
 }
 
 .vline-r {
-  border-left: 6px solid midnightblue;
+  border-right: 8px solid midnightblue;
   height: 50px;
 }
 
