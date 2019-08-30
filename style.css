@@ -154,7 +154,12 @@ body {
   font-size: 8vh;
 }
 
-.vline {
+.vline-l {
+  border-left: 6px solid midnightblue;
+  height: 50px;
+}
+
+.vline-r {
   border-left: 6px solid midnightblue;
   height: 50px;
 }
