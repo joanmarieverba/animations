@@ -160,8 +160,16 @@ body {
 }
 
 .vline-r {
-  border-right: 8px solid midnightblue;
-  height: 50px;
+  border-left: 8px solid midnightblue;
+  height: 100px;
+}
+
+.v-line {
+  width: 1px;
+  min-height: 400px;
+  background: red;
+  margin: 15px;
+  float: left
 }
 
 
