@@ -141,7 +141,7 @@ body {
 
   /* end open text animation   */
 
-   /* vertical line effect   */
+/* moving line effect   */
 
 .spacing {
   margin-left: 45%;
@@ -153,6 +153,32 @@ body {
   font-family: 'Oswald';
   font-size: 8vh;
 }
+
+.vline-l {
+  border-left: 8px solid midnightblue;
+  height: 100px;
+}
+
+.vline-r {
+  border-left: 8px solid midnightblue;
+  height: 100px;
+}
+
+/* end moving line effect  */
+
+
+   /* vertical line effect   */
+
+.spacing {
+  margin-left: 45%;
+  margin-top: 10vh;
+  margin-bottom: 35vh;
+}
+
+/* .this-text {
+  font-family: 'Oswald';
+  font-size: 8vh;
+} */
 
 .vline-l {
   border-left: 8px solid midnightblue;
