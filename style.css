@@ -190,15 +190,6 @@ body {
   font-size: 8vh;
 }
 
-.vline-l {
-  border-left: 8px solid midnightblue;
-  height: 100px;
-}
-
-.vline-r {
-  border-left: 8px solid midnightblue;
-  height: 100px;
-}
 
 .v-line {
   width: 10px;
