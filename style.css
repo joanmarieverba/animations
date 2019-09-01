@@ -149,6 +149,10 @@ body {
   margin-bottom: 10vh;
 }
 
+.this-text, .vline-l {
+  display: inline-block;
+}
+
 .this-text {
   font-family: 'Oswald';
   font-size: 8vh;
