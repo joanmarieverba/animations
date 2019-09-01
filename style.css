@@ -166,7 +166,7 @@ body {
     transform: translateX(0em);
   }
   100% {
-    transform: translateX(20em);
+    transform: translateX(10em);
   }
 }
 
