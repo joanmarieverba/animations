@@ -155,12 +155,12 @@ body {
 
 .this-text {
   font-family: 'Oswald';
-  font-size: 8vh;
+  font-size: 20px;
 }
 
 .vline-l {
   border-left: 8px solid midnightblue;
-  height: 100px;
+  height: 20px;
   animation-name: move-line;
   animation-duration: 4s;
 }
@@ -185,10 +185,10 @@ body {
   margin-bottom: 35vh;
 }
 
-/* .this-text {
+.next-text {
   font-family: 'Oswald';
   font-size: 8vh;
-} */
+}
 
 .vline-l {
   border-left: 8px solid midnightblue;
