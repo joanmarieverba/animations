@@ -155,12 +155,12 @@ body {
 
 .this-text {
   font-family: 'Oswald';
-  font-size: 20px;
+  font-size: 8vh;
 }
 
 .vline-l {
   border-left: 8px solid midnightblue;
-  height: 20px;
+  height: 8vh;
   animation-name: move-line;
   animation-duration: 4s;
 }
