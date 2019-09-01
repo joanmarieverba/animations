@@ -157,8 +157,18 @@ body {
 .vline-l {
   border-left: 8px solid midnightblue;
   height: 100px;
+  animation-name: move-line;
+  animation-duration: 4s;
 }
 
+@keyframes move-line {
+  0% {
+    transform: translateX(0em);
+  }
+  100% {
+    transform: translateX(20em);
+  }
+}
 
 /* end moving line effect  */
 
