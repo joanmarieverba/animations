@@ -156,6 +156,7 @@ body {
 .this-text {
   font-family: 'Oswald';
   font-size: 8vh;
+  vertical-align: super;
 }
 
 .vline-l {
