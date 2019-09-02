@@ -157,6 +157,7 @@ body {
   font-family: 'Oswald';
   font-size: 8vh;
   vertical-align: super;
+  letter-spacing: -7px;
 }
 
 .vline-l {
