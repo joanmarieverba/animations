@@ -157,20 +157,20 @@ body {
   font-family: 'Oswald';
   font-size: 8vh;
   vertical-align: super;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation: reveal 4s linear 0s alternate;
 }
 
-.first-letter {
-  animation-name: first-text;
-  animation-duration: 4s;
-}
-
-@keyframes first-text {
-  0% {
-    opacity: 0;
+@keyframes reveal {
+  from {
+    width: 0;
   }
-  100% {
-    opacity: 1;
-  }
+  to {
+    width: 150px;
+  } 
 }
 
 
