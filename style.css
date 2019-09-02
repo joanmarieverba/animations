@@ -157,8 +157,22 @@ body {
   font-family: 'Oswald';
   font-size: 8vh;
   vertical-align: super;
-  letter-spacing: -7px;
 }
+
+.first-letter {
+  animation-name: first-text;
+  animation-duration: 4s;
+}
+
+@keyframes first-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .vline-l {
   border-left: 8px solid midnightblue;
