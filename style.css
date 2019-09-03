@@ -175,6 +175,7 @@ body {
 .vline-l {
   border-left: 8px solid midnightblue;
   height: 8vh;
+   vertical-align: super;
   animation-name: move-line;
   animation-duration: 4s;
 }
