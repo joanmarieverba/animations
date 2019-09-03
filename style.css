@@ -156,7 +156,7 @@ body {
 .this-text {
   font-family: 'Oswald';
   font-size: 8vh;
-
+ vertical-align: sub;
   overflow: hidden;
   white-space: nowrap;
 
@@ -171,7 +171,6 @@ body {
     width: 150px;
   } 
 }
-
 
 .vline-l {
   border-left: 8px solid midnightblue;
