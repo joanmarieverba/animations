@@ -156,7 +156,7 @@ body {
 .this-text {
   font-family: 'Oswald';
   font-size: 8vh;
- vertical-align: sub;
+  vertical-align: sub;
   overflow: hidden;
   white-space: nowrap;
 
@@ -174,8 +174,8 @@ body {
 
 .vline-l {
   border-left: 8px solid midnightblue;
-  height: 8vh;
-   vertical-align: super;
+  height: 9vh;
+  vertical-align: super;
   animation-name: move-line;
   animation-duration: 4s;
 }
