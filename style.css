@@ -178,7 +178,7 @@ body {
   height: 9vh;
   vertical-align: super;
   animation-name: move-line;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 
