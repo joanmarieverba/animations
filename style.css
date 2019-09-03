@@ -160,7 +160,8 @@ body {
   overflow: hidden;
   white-space: nowrap;
 
-  animation: reveal 4s linear 0s alternate;
+  animation: reveal 4s linear 0s;
+
 }
 
 @keyframes reveal {
@@ -178,6 +179,7 @@ body {
   vertical-align: super;
   animation-name: move-line;
   animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes move-line {
@@ -185,7 +187,7 @@ body {
     transform: translateX(0em);
   }
   100% {
-    transform: translateX(10em);
+    transform: translateX(8em);
   }
 }
 
