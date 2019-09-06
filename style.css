@@ -217,7 +217,7 @@ body {
   width: 10px;
   min-height: 100px;
   background: midnightblue;
-  margin: 15px;
+  /* margin: 15px; */
   float: left
 }
 
