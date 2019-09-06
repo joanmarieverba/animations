@@ -204,7 +204,7 @@ body {
 .spacing {
   margin-left: 45%;
   margin-top: 10vh;
-  margin-bottom: 35vh;
+  margin-bottom: 25vh;
 }
 
 .next-text {
@@ -212,13 +212,16 @@ body {
   font-size: 8vh;
 }
 
-
 .v-line {
   width: 10px;
   min-height: 100px;
   background: midnightblue;
-  /* margin: 15px; */
-  float: left
+
+  /* float: left; */
+}
+
+.next-text, .v-line {
+  display: inline-block;
 }
 
 
