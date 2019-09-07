@@ -205,6 +205,7 @@ body {
   margin-left: 50%;
   margin-top: 10vh;
   margin-bottom: 25vh;
+    display: flex;
 }
 
 .next-text {
@@ -216,7 +217,7 @@ body {
   width: 10px;
   min-height: 100px;
   background: midnightblue;
-  overflow: hidden;
+
 
 }
 
