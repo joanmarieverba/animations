@@ -213,7 +213,7 @@ body {
   font-size: 8vh;
 }
 
-.v-line {
+.v-line-left {
   width: 10px;
   min-height: 100px;
   background: midnightblue;
@@ -221,7 +221,15 @@ body {
 
 }
 
-.next-text, .v-line {
+.v-line-right {
+  width: 10px;
+  min-height: 100px;
+  background: midnightblue;
+
+
+}
+
+.next-text, .v-line-left, v-line-right {
   display: inline-block;
 }
 
