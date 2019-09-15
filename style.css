@@ -221,7 +221,7 @@ body {
   background: midnightblue;
   animation-name: move-left;
   animation-duration: 5s;
-  /* animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
   z-index: 1;
 }
 
@@ -231,7 +231,7 @@ body {
   background: midnightblue;
   animation-name: move-right;
   animation-duration: 5s;
-  /* animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
   z-index: 1;
 }
 
@@ -250,7 +250,7 @@ body {
   }
   100% {
     transform: translateX(0em);
-    /* opacity: 0; */
+    opacity: 0;
   }
 }
 
@@ -264,7 +264,7 @@ body {
   }
   100% {
     transform: translateX(0em);
-    /* opacity: 0; */
+    opacity: 0;
   }
 }
 
