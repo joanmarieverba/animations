@@ -211,6 +211,8 @@ body {
 .next-text {
   font-family: 'Oswald';
   font-size: 8vh;
+  z-index: 10;
+  color: tomato;
 }
 
 .v-line-left {
@@ -219,8 +221,8 @@ body {
   background: midnightblue;
   animation-name: move-left;
   animation-duration: 5s;
-  animation-fill-mode: forwards;
-
+  /* animation-fill-mode: forwards; */
+  z-index: 1;
 }
 
 .v-line-right {
@@ -229,8 +231,8 @@ body {
   background: midnightblue;
   animation-name: move-right;
   animation-duration: 5s;
-  animation-fill-mode: forwards;
-
+  /* animation-fill-mode: forwards; */
+  z-index: 1;
 }
 
 .next-text, .v-line-left, v-line-right {
@@ -240,29 +242,29 @@ body {
 
 @keyframes move-right {
   0% {
-    transform: translateX(0em);
+    transform: translateX(-4em);
     opacity: 1;
   }
   98% {
     opacity: 1;
   }
   100% {
-    transform: translateX(8em);
-    opacity: 0;
+    transform: translateX(0em);
+    /* opacity: 0; */
   }
 }
 
 @keyframes move-left {
   0% {
-    transform: translateX(0em);
+    transform: translateX(4em);
     opacity: 1;
   }
   98% {
     opacity: 1;
   }
   100% {
-    transform: translateX(-8em);
-    opacity: 0;
+    transform: translateX(0em);
+    /* opacity: 0; */
   }
 }
 
