@@ -243,13 +243,11 @@ body {
 
 @keyframes text-expand {
   0% {
-    letter-spacing: .1vw;
+    letter-spacing: -1px;
   }
-  50% {
-    letter-spacing: 1.7vw;
-  }
+
   100% {
-    letter-spacing: .1vw;
+    letter-spacing: 1vw;
   }
 }
 
