@@ -213,6 +213,8 @@ body {
   font-size: 8vh;
   z-index: 10;
   color: tomato;
+  animation-name: text-expand;
+  animation-duration: 5s;
 }
 
 .v-line-left {
@@ -237,6 +239,18 @@ body {
 
 .next-text, .v-line-left, v-line-right {
   display: inline-block;
+}
+
+@keyframes text-expand {
+  0% {
+    letter-spacing: .1vw;
+  }
+  50% {
+    letter-spacing: 1.7vw;
+  }
+  100% {
+    letter-spacing: .1vw;
+  }
 }
 
 
