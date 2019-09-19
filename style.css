@@ -243,12 +243,10 @@ body {
 
 @keyframes text-expand {
   0% {
-    /* letter-spacing: -1px; */
     transform:scale(0.25,1.0);
   }
 
   100% {
-    /* letter-spacing: 1vw; */
     transform:scale(1.0,1.0);
   }
 }
