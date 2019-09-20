@@ -222,7 +222,7 @@ body {
   min-height: 100px;
   background: midnightblue;
   animation-name: move-left;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   z-index: 1;
 }
@@ -232,7 +232,7 @@ body {
   min-height: 100px;
   background: midnightblue;
   animation-name: move-right;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   z-index: 1;
 }
