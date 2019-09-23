@@ -460,7 +460,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: consolas;
+    /* font-family: consolas; */
+    font-family: 'Cousine', monospace;
 }
 
 .container{
