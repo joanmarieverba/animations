@@ -483,7 +483,7 @@ body {
 
 .container .card .face.face1{
     position: relative;
-    background: #333;
+    background: aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
