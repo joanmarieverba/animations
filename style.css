@@ -497,7 +497,7 @@ body {
 }
 
 .container .card .face.face1 .content{
-    opacity: 0.2;
+    /* opacity: 0.2; */
     transition: 0.5s;
 }
 
@@ -512,7 +512,7 @@ body {
 .container .card .face.face1 .content h3{
     margin: 10px 0 0;
     padding: 0;
-    color: #fff;
+    color: midnightblue;
     text-align: center;
     font-size: 1.5em;
 }
