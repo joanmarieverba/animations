@@ -392,6 +392,11 @@ body {
 
   /* end ghost button   */
 
+  .separator {
+    text-align: center;
+    margin-bottom: 6vw;
+  }
+
   button {
   --borderWidth: 5;
   --boxShadowDepth: 8;
