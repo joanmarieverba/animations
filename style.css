@@ -246,10 +246,10 @@ body {
     transform:scale(0.05,1.0);
     opacity: 0;
   }
-  20% {
+  10% {
     opacity: 0;
   }
-  21% {
+  11% {
     opacity: 1;
   }
 
