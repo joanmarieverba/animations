@@ -691,6 +691,14 @@ h2 {
 
 /* --end open the book animation-- */
 
+/* --diagonals-- */
 
+.diagonal-box {
+	background-image: linear-gradient(45deg, #6303B1, #ff0099);
+} 
+.content { 	
+	max-width: 50em;
+    margin: 0 auto; 
+}
 
 
