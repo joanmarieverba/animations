@@ -705,4 +705,6 @@ h2 {
     padding: 2em;
 }
 
-
+.spacer {
+  margin-top: 15vh;
+}
