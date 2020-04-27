@@ -714,9 +714,9 @@ h2 {
 .marquee {
     position: relative;
     overflow: hidden;
-    --offset: 20vw;
-    --move-initial: calc(-25% + var(--offset));
-    --move-final: calc(-50% + var(--offset));
+    --offset: 1vw;
+    --move-initial: calc(25% + var(--offset));
+    --move-final: calc(-100% + var(--offset));
 }
 
 .marquee__inner {
@@ -725,7 +725,7 @@ h2 {
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
     animation: marquee 5s linear infinite;
-    animation-play-state: paused;
+    /* animation-play-state: paused; */
 }
 
 .marquee span {
