@@ -454,6 +454,10 @@ body {
 
 /* sliding triplet */
 
+.comment {
+  padding: 2vw;
+}
+
 .frame {
     margin: 0;
     padding: 0;
@@ -787,6 +791,7 @@ h2 {
 
 
 /* CSS reset */
+
 *,
 *::after,
 *::before {
