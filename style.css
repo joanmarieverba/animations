@@ -1169,21 +1169,21 @@ h2 {
 
 /*CIRCULAR TEXT*/
 
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
   line-height: 1.4;
   color: #161b1e;
-}
+} */
 
 .quote-wrapper {
   width: 300px;
