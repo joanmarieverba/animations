@@ -117,9 +117,9 @@ img{
   transition-duration: .3s;
 }
 
-img:hover{
+/* img:hover{
   transform: translateX(-60%) translateY(-60%) rotatez(-25deg);
-}
+} */
 @media (min-width:450px){
   ul{
     margin: 150px 40px;
