@@ -113,18 +113,15 @@ img{
   transform: translateX(-50%) translateY(-50%) rotatez(-45deg);
   padding-bottom: 15%;
   box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.3);
-  transition-property: transform;
-  transition-duration: .3s;
+  /* transition-property: transform;
+  transition-duration: .3s; */
 }
 
-/* img:hover{
-  transform: translateX(-60%) translateY(-60%) rotatez(-25deg);
-} */
-
-img:hover {
-  transform: scale(1.5);
-  z-index: 1;
+img:hover{
+  /* transform: translateX(-60%) translateY(-60%) rotatez(-25deg); */
+  transform: translateX(-60%) translateY(-60%) rotatez(-45deg) scale(1.5);
 }
+
 
 
 
