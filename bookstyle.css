@@ -121,6 +121,12 @@ img{
   transform: translateX(-60%) translateY(-60%) rotatez(-25deg);
 } */
 
+img:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+
 
 @media (min-width:450px){
   ul{
