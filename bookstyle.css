@@ -6,10 +6,14 @@ body{
   background-color: midnightblue;
 }
 
+
+
 ul{
   display:grid;
   grid-template-columns: repeat(var(--columns),1fr);
+  /* top right bottom left */
   margin: 150px -40px;
+  padding-top: 150px;
   list-style-type: none;
 }
 
