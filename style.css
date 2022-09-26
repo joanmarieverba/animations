@@ -1332,3 +1332,45 @@ h2 {
 .note a:hover {
   text-decoration: underline;
 }
+
+
+
+/* content warnings */
+
+.ContentWarning {
+  border: 1px solid rgb(0 0 0 / 0.3);
+  border-radius: 0.2em;
+}
+
+/**
+ * 1. Remove the default arrow that comes with the `<summary>` element
+ * 2. Make the toggle feel clickable with a hand cursor
+ * 3. Increase the hitbox of the toggle for ease of action
+ * 4. Give the toggle a striped background to make it stand out
+ */
+.ContentWarning>summary {
+  list-style: none;
+  /* 1 */
+  cursor: pointer;
+  /* 2 */
+  padding: 1em;
+  /* 3 */
+  --stripe-color: rgb(0 0 0 / 0.1);
+  /* 4 */
+  background-image: repeating-linear-gradient(45deg,
+      transparent,
+      transparent 0.5em,
+      var(--stripe-color) 0.5em,
+      var(--stripe-color) 1em);
+  /* 4 */
+}
+
+/**
+ * 1. Tweak the stripes color on hover/focus to indicate that interacting with
+ *    the toggle will disclose the sensitive content
+ */
+.ContentWarning>summary:hover,
+.ContentWarning>summary:focus {
+  --stripe-color: rgb(150 0 0 / 0.1);
+  /* 1 */
+}
